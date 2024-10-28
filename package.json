@@ -1,5 +1,5 @@
 {
-  "name": "NomeDoApp",
+  "name": "whatzapp-clone",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,8 +10,20 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.6.1",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/native-stack": "^6.11.0",
+    "@reduxjs/toolkit": "^2.3.0",
     "react": "18.3.1",
-    "react-native": "0.76.0"
+    "react-native": "0.76.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^3.16.1",
+    "react-native-router-flux": "^4.3.1",
+    "react-native-safe-area-context": "^4.12.0",
+    "react-native-screens": "^3.35.0",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
